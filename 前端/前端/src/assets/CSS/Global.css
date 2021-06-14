@@ -1,0 +1,50 @@
+/*全局样式表*/
+html,body,
+#app{
+    height:100%;
+    wigth:100%;
+    margin:0;
+    padding:0;
+}
+*{
+    margin:0;
+    padding:0;
+}
+.el-breadcrumb{
+    margin-bottom: 15px;
+    font-size:15px;
+
+}
+
+
+.el-card{
+    box-shadow: 0 1px 1px rgba(0,0,0,0.15)!important;
+    /*要是更改完样式没啥作用，多半是自己定义的样式权重不够高，末尾加上！important即可*/
+}
+.el-table{
+    margin-top:15px;
+}
+.el-pagination{
+    margin-top:15px;
+}
+.el-tooltip.el-button{
+    margin-right:10px !important;
+}
+.el-main{
+    margin:0;
+    padding:0;
+}
+
+.aaa{
+    margin:0;
+    padding-top:20px;
+}
+.el-card{
+    margin:20px 20px 20px 20px;
+}
+.el-breadcrumb{
+    margin:20px 20px 20px 20px;
+}
+.el-carousel{
+    margin:20px 20px 20px 20px;
+}
